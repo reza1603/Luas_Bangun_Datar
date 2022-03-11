@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TrapesiumActivity">
+
+    <TextView
+        android:id="@+id/tv_sisiA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sisi A" />
+
+    <EditText
+        android:id="@+id/ed_sisiA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/tv_sisiB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sisi B" />
+
+    <EditText
+        android:id="@+id/ed_sisiB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/tv_tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tinggi" />
+
+    <EditText
+        android:id="@+id/ed_tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/button_hitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung" />
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="Hasil" />
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_persegiPanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hitung_luas_persegi_panjang" />
+
+    <Button
+        android:id="@+id/button_persegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hitung_luas_persegi" />
+
+    <Button
+        android:id="@+id/button_lingkaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hitung_luas_lingkaran" />
+
+    <Button
+        android:id="@+id/button_segitiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hitung_luas_segitiga" />
+
+    <Button
+        android:id="@+id/button_trapesium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hitung_luas_trapesium" />
+
+    <Button
+        android:id="@+id/button_jajarGenjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hitung_luas_jajar_genjang" />
+
+    <Button
+        android:id="@+id/button_belahKetupat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hitung_luas_belah_ketupat" />
+
+</LinearLayout>

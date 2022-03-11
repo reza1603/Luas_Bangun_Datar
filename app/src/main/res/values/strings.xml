@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BangunDatar</string>
+    <string name="hitung_luas_belah_ketupat">Luas Belah Ketupat</string>
+    <string name="hitung_luas_jajar_genjang">Luas Jajar Genjang</string>
+    <string name="hitung_luas_trapesium">Luas Trapesium</string>
+    <string name="hitung_luas_segitiga">Luas Segitiga</string>
+    <string name="hitung_luas_lingkaran">Luas Lingkaran</string>
+    <string name="hitung_luas_persegi">Luas Persegi</string>
+    <string name="hitung_luas_persegi_panjang">Luas Persegi Panjang</string>
+</resources>
